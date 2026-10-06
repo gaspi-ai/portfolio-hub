@@ -122,6 +122,24 @@ export const PORTFOLIO_DATA = {
       ],
     },
     {
+      id: "agentmesh-swarm",
+      title: "AgentMesh Swarm",
+      tagline: "Autonomous Multi-Agent Orchestration & Evaluation Engine",
+      description: "Distributed execution framework enabling heterogeneous LLM agent clusters to collaboratively decompose, debate, and execute complex engineering tasks with automated critic loops and consensus voting.",
+      image: "/projects/agentmesh-swarm.jpg",
+      tags: ["TypeScript", "Python", "LangGraph", "FastAPI", "Next.js 16", "vLLM"],
+      category: "AI & ML",
+      demoUrl: "https://agentmesh-swarm.vercel.app",
+      githubUrl: "https://github.com/example/agentmesh-swarm",
+      featured: true,
+      metrics: "88% autonomous task success rate",
+      highlights: [
+        "Dynamic directed acyclic graph (DAG) scheduler handling 500+ parallel agent steps",
+        "Automated critic-agent consensus protocol reducing hallucination rates by 72%",
+        "Sub-50ms inter-agent message bus built on Redis Streams and gRPC"
+      ],
+    },
+    {
       id: "aura-engine",
       title: "Aura Component Engine",
       tagline: "Accessible, Headless Design System with Generative Theme Tokens",
